@@ -7,6 +7,7 @@ import pro.jtaylor.timetracker.core.dao.TimeEntry;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Jason on 6/19/2015.
