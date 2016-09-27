@@ -1,19 +1,16 @@
-package pro.jtaylor.timetracker.core;
+package com.tcf.trainings.jenkins.timetracker.core;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import pro.jtaylor.timetracker.core.dao.TimeEntry;
+import com.tcf.trainings.jenkins.timetracker.core.dao.TimeEntry;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Jason on 6/19/2015.
- */
 @Configuration
-@ComponentScan("pro.jtaylor.timetracker.core")
+@ComponentScan("com.tcf.trainings.jenkins.timetracker.core")
 public class TrackerCoreConfig {
 
     @Bean(name = "timesheet")

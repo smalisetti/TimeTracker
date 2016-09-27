@@ -1,8 +1,8 @@
-package pro.jtaylor.timetracker.core;
+package com.tcf.trainings.jenkins.timetracker.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import pro.jtaylor.timetracker.core.dao.TimeEntry;
+import com.tcf.trainings.jenkins.timetracker.core.dao.TimeEntry;
 
 import java.util.List;
 
