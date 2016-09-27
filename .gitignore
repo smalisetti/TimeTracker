@@ -1,4 +1,6 @@
 .project
+*/.project
 .settings
+*/.settings
 Target
 */Target
